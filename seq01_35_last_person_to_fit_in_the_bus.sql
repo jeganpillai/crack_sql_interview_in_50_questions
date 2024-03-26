@@ -1,5 +1,5 @@
 -- Question: find the last person to fit in the bus
--- Video: https://youtu.be/n1K0y4QxfsM
+-- Video: https://www.youtube.com/watch?v=n1K0y4QxfsM
 
 Create table Queue (person_id int, person_name varchar(30), weight int, turn int);
 Truncate table Queue;
