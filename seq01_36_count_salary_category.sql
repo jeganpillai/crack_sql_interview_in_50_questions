@@ -1,6 +1,6 @@
 -- Question: find the salary count based on category.
--- English video: 
--- Tamil video: 
+-- English video: https://www.youtube.com/watch?v=yuDlfMgu2H0
+-- Tamil video: https://www.youtube.com/watch?v=uhq_dlbXCqY
 
 Create table Accounts (account_id int, income int);
 Truncate table Accounts;
