@@ -1,4 +1,4 @@
--- Question: Find the Low Waged Managers who have inactive Managers, means 
+-- Question: Find the Low Waged Employees who have inactive Managers, means 
 -- 1. Find the employees whose salary is strictly less than $30000 and 
 -- 2. whose manager left the company. 
 
