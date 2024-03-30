@@ -2,8 +2,8 @@
 -- 1. Find the employees whose salary is strictly less than $30000 and 
 -- 2. whose manager left the company. 
 
-English Video: 
-Tamil Video: 
+English Video: https://www.youtube.com/watch?v=e5-TbAkNt54
+Tamil Video: https://www.youtube.com/watch?v=MR6P9rLAxrE
 
 Create table Employees (employee_id int, name varchar(20), manager_id int, salary int);
 Truncate table Employees;
@@ -25,9 +25,6 @@ select e.employee_id
        and e.salary < 30000
   order by 1;
 
-Normally, for these kind of questions, Self join is the better option to use. But lets see few other simple approaches
-
-We are going to see the Subquery option
 -- Approach 2: Subquery
 select e.employee_id 
       from Employees e 
@@ -35,8 +32,6 @@ select e.employee_id
      and e.salary < 30000
      and e.manager_id not in (select employee_id from Employees)
      order by 1 ;
-
-Same like Subquery, we can do this in Correlated subquery. We talked about this correlated subquery in couple of videos before and we can refresh our memory
 
 -- Approach 3: Correlated Subquery
 select e.employee_id 
