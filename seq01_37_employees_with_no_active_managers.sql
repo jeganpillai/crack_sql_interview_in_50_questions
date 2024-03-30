@@ -2,8 +2,8 @@
 -- 1. Find the employees whose salary is strictly less than $30000 and 
 -- 2. whose manager left the company. 
 
-English Video: https://www.youtube.com/watch?v=e5-TbAkNt54
-Tamil Video: https://www.youtube.com/watch?v=MR6P9rLAxrE
+-- English Video: https://www.youtube.com/watch?v=e5-TbAkNt54
+-- Tamil Video: https://www.youtube.com/watch?v=MR6P9rLAxrE
 
 Create table Employees (employee_id int, name varchar(20), manager_id int, salary int);
 Truncate table Employees;
