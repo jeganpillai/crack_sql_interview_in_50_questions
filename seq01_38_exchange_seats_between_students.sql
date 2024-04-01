@@ -1,7 +1,7 @@
 -- Question: swap the seat id of every two consecutive students
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=DpLLTzChbp8
+-- Tamil Video: https://www.youtube.com/watch?v=2T3lD2sIwCo
 
 Create table Seat (id int, student varchar(255));
 Truncate table Seat;
@@ -40,4 +40,3 @@ select id
             when id%2=0 then lag(student) over (order by id)
         end as student
 from Seat ;
-https://www.youtube.com/watch?v=e5-TbAkNt54
