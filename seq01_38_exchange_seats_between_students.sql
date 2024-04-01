@@ -40,3 +40,4 @@ select id
             when id%2=0 then lag(student) over (order by id)
         end as student
 from Seat ;
+https://www.youtube.com/watch?v=e5-TbAkNt54
