@@ -1,7 +1,7 @@
 -- Question: Find the top rated movie and title
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=W0L0U0vpa10
+-- Tamil Video: https://www.youtube.com/watch?v=JnUuYin0wlo
 
 Truncate table Movies;
 insert into Movies (movie_id, title) values 
