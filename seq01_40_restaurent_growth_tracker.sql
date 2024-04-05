@@ -18,7 +18,7 @@ insert into Customer (customer_id, name, visited_on, amount) values
 ,(1, 'Jhon'   , '2024-04-10', 130)
 ,(3, 'Jade'   , '2024-04-10', 150);
 
--- Approach 1: Self Join 
+-- Approach 1: Self Join Technique
 with agg_customer as (
 select visited_on, sum(amount) as amount from Customer group by 1)
 select c.visited_on
@@ -32,7 +32,7 @@ inner join agg_customer c2
 --       and c2.visited_on between date_sub(c.visited_on, interval 6 day) and c.visited_on 
   group by 1 having count(distinct c2.visited_on) = 7 order by 1;
 
--- Approach 2: Using Row Level Windows function 
+-- Approach 2: Row-Level Window Functions 
 with agg_customer as (
 select visited_on, sum(amount) as amount from Customer group by 1)
 ,overall_visits as (
@@ -47,7 +47,7 @@ select visited_on
       from overall_visits 
      where cnt = 7;
 
--- Approach 3: Using Range Level Windows Function 
+-- Approach 3: Range-Level Window Functions 
 with overall_visit as (
 select distinct visited_on
       ,sum(amount) over(order by visited_on range between interval 6 day preceding and current row) as amount
