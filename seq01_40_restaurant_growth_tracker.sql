@@ -1,7 +1,7 @@
 -- Question: Find how much the customer paid in a seven days window
 
 -- English Video: https://www.youtube.com/watch?v=onikn73OqF4
--- Tamil Video: 
+-- Tamil Video: https://www.youtube.com/watch?v=DwoJP9Tu3nA
 
 Create table Customer (customer_id int, name varchar(20), visited_on date, amount int);
 Truncate table Customer;
