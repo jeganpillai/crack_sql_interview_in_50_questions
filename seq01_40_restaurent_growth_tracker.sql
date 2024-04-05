@@ -1,6 +1,6 @@
 -- Question: Find how much the customer paid in a seven days window
 
--- English Video: 
+-- English Video: https://www.youtube.com/watch?v=onikn73OqF4
 -- Tamil Video: 
 
 Create table Customer (customer_id int, name varchar(20), visited_on date, amount int);
@@ -52,11 +52,11 @@ with overall_visit as (
 select distinct visited_on
       ,sum(amount) over(order by visited_on range between interval 6 day preceding and current row) as amount
       ,round(sum(amount) over(order by visited_on range between interval 6 day preceding and current row)/7.0, 2) as average_amount  
-      ,count(visited_on) over(order by visited_on rows between 6 preceding and current row) as cnt  
+      ,count(visited_on) over(order by visited_on range between interval 6 day preceding and current row) as cnt  
 from Customer)
 select visited_on
       ,amount 
       ,average_amount 
     from overall_visit 
-    where cnt = 7;
+    where cnt >= 7;
 
