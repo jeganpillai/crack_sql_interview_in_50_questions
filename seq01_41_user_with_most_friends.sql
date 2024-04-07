@@ -1,7 +1,7 @@
 -- Question: Find Users with More Friends
 
--- English Video: https://www.youtube.com/watch?v=22XEbujviuI
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=xXEN6TgdTO4
+-- Tamil Video: https://www.youtube.com/watch?v=UBsCVJGRd6U
 
 Create table RequestAccepted (requester_id int, accepter_id int, accept_date date);
 Truncate table RequestAccepted;
