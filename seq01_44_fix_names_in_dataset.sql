@@ -1,7 +1,7 @@
 -- Question: Fix Names in Dataset
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Hx6vBVcUmjc
+-- Tamil Video: https://www.youtube.com/watch?v=9i2Q_6r-moE
 
 Create table Users (user_id int, name varchar(40));
 Truncate table Users;
