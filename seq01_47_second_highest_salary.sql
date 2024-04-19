@@ -24,7 +24,7 @@ select max(salary) from Employee where salary
             )
         );
 -- Approach 2: Correlated subquery
-SELECT e.Salary AS SecondHighestSalary
+SELECT max(e.Salary) AS SecondHighestSalary
   FROM Employee e
  WHERE 2 = (SELECT COUNT(DISTINCT ee.Salary) FROM Employee ee
              WHERE ee.Salary >= e.Salary);
