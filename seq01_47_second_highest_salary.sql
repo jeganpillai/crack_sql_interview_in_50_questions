@@ -1,7 +1,7 @@
 -- Question: Find the Second Highest Salary
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=LF_hTic7_Ig
+-- Tamil Video: https://www.youtube.com/watch?v=5Qj41FCKmvg
 
 Create table If Not Exists Employee (Id int, Name varchar(255), Salary int, Department varchar(100));
 
@@ -26,7 +26,7 @@ select max(salary) from Employee where salary
 -- Approach 2: Correlated subquery
 SELECT e.Salary AS SecondHighestSalary
   FROM Employee e
- WHERE 3 = (SELECT COUNT(DISTINCT ee.Salary) FROM Employee ee
+ WHERE 2 = (SELECT COUNT(DISTINCT ee.Salary) FROM Employee ee
              WHERE ee.Salary >= e.Salary);
 
 -- Approach 3: Windows function with subquery format 
