@@ -1,7 +1,7 @@
 -- Question: Delete duplicate emails
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=Q5GvWc2uXis
+-- Tamil Video: https://www.youtube.com/watch?v=Awn6ONtZ_Ng
 
 Create table Person (Id int, Email varchar(255));
 Truncate table Person;
