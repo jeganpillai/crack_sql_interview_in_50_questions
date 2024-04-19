@@ -41,6 +41,7 @@ with main_table as (
 SELECT Salary as salary
       ,DENSE_RANK() OVER(ORDER BY Salary desc) AS rnk
       FROM Employee) 
-select max(salary) from main_table  
+select max(salary) as SecondHighestSalary
+      from main_table  
       where rnk = 2
       ;
