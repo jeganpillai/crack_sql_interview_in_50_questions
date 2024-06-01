@@ -1,5 +1,7 @@
 -- Question: Find the product ids that are both low fat and recyclable
--- Video: 
+
+-- English Video: https://www.youtube.com/watch?v=cDJDVux3EVk
+-- Tamil Video: Pending 
 
 Create table Products 
 (product_id int, low_fats char(1), recyclable char(1));
