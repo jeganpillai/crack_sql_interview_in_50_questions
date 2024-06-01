@@ -1,4 +1,5 @@
 -- Question: find the salary count based on category.
+
 -- English video: https://www.youtube.com/watch?v=yuDlfMgu2H0
 -- Tamil video: https://www.youtube.com/watch?v=uhq_dlbXCqY
 
