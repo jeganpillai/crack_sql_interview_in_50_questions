@@ -1,5 +1,7 @@
 -- Question: select all employee's name and bonus details of whose bonus is < 1000.
--- Video: https://www.youtube.com/watch?v=Pv6zc-5AQ18
+
+-- English Video: https://www.youtube.com/watch?v=Pv6zc-5AQ18
+-- Tamil Video: Pending 
 
 Create table Employee (empId int, name varchar(255), supervisor int, salary int);
 Truncate table Employee;
