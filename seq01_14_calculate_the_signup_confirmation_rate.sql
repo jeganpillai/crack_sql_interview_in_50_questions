@@ -1,5 +1,7 @@
 -- Question: Find the confirmation rate of each user
--- Video: https://www.youtube.com/watch?v=LylInkWFL4E
+
+-- English Video: https://www.youtube.com/watch?v=LylInkWFL4E
+-- Tamil Video: Pending 
 
 Create table If Not Exists Signups 
 (user_id int, time_stamp datetime);
