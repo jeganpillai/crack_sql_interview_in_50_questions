@@ -1,7 +1,7 @@
 -- Question: Find users with valid email
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=y6nK3upadFA
+-- Tamil Video: https://www.youtube.com/watch?v=i7JOYvOp8Lg
 
 Create table Users (user_id int, user_name varchar(30), email varchar(50));
 Truncate table Users;
