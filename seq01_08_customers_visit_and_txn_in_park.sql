@@ -3,7 +3,9 @@
 -- 2. Identify the customer_id who visited the park without making any transactions and count the number of such visits.
 -- 3. Find customers who visited the park but never had a transaction. 
 
--- Video: https://www.youtube.com/watch?v=EAjQkKYWCjQ
+-- English Video: https://www.youtube.com/watch?v=EAjQkKYWCjQ
+-- Tamil Video: Pending 
+
   
 Create table If Not Exists Visits(visit_id int, customer_id int);
 Truncate table Visits;
