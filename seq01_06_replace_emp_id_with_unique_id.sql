@@ -1,5 +1,8 @@
 -- Question: showcase the unique ID of each user, and if a user doesn't have a unique ID, we gracefully handle it by displaying null.
--- Video: https://www.youtube.com/watch?v=GLd6kgRgVg0
+
+-- English Video: https://www.youtube.com/watch?v=GLd6kgRgVg0
+-- Tamil Video: Pending 
+
 Create table Employees (id int, name varchar(20));
 Truncate table Employees;
 insert into Employees (id, name) values 
