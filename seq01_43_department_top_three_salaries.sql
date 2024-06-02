@@ -1,7 +1,7 @@
 -- Question: Department Top Three Salaries
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=W8De25Sd_JI
+-- Tamil Video: https://www.youtube.com/watch?v=MUmDKdgRJ2Y
 
 Create table Employee (id int, name varchar(255), salary int, departmentId int);
 Truncate table Employee;
