@@ -1,7 +1,7 @@
 -- Question: Patients With a Condition
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=NQ9F3ClOZ4k
+-- Tamil Video: https://www.youtube.com/watch?v=KwkqDMXoYco
 
 Create table Patients (patient_id int, patient_name varchar(30), conditions varchar(100));
 Truncate table Patients;
