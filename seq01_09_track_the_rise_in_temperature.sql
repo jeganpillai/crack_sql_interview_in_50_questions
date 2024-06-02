@@ -1,5 +1,7 @@
 -- Question: Write a solution to find all dates' Id with higher temperatures compared to its previous dates (yesterday).
--- Video: https://www.youtube.com/watch?v=_gZF4c8AGB0
+
+-- English Video: https://www.youtube.com/watch?v=_gZF4c8AGB0
+-- Tamil Video: Pending 
 
 Create table If Not Exists Weather (id int, recordDate date, temperature int);
 Truncate table Weather;
