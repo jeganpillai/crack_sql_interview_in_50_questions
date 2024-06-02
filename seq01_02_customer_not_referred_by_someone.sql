@@ -1,5 +1,8 @@
 -- Question: Find the names of the customer that are not referred by the customer
--- Video: https://www.youtube.com/watch?v=RTfYlh2WM6M
+
+-- English Video: https://www.youtube.com/watch?v=RTfYlh2WM6M
+-- Tamil Video: Pending 
+
 
 Create table Customer (id int, name varchar(25), referee_id int);
 Truncate table Customer;
