@@ -1,6 +1,8 @@
 -- Question: Find the primary department for each employee
--- Video: https://www.youtube.com/watch?v=bPAB7vXmb-Q
 
+# English Video: https://www.youtube.com/watch?v=bPAB7vXmb-Q
+# Tamil Video: https://www.youtube.com/watch?v=jZUJGz1BhTw
+ 
 Create table Employee (employee_id int, department_id int, primary_flag ENUM('Y','N'));
 Truncate table Employee;
 insert into Employee (employee_id, department_id, primary_flag) values 
