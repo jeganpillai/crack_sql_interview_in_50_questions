@@ -1,5 +1,7 @@
 -- Question: Find the followers count for each user
--- Video: https://www.youtube.com/watch?v=VIh4uD6YL3k
+
+-- English Video: https://www.youtube.com/watch?v=VIh4uD6YL3k
+-- Tamil Video: Pending 
 
 Create table Followers(user_id int, follower_id int);
 Truncate table Followers;
