@@ -1,7 +1,7 @@
 -- Question: Group the Products Sold by Date
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=FHKTOgsZ5GY
+-- Tamil Video: https://www.youtube.com/watch?v=ejd5zKhgv7w
 
 Create table Activities (sell_date date, product varchar(20));
 Truncate table Activities;
