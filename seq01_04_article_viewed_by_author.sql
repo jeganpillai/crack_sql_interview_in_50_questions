@@ -1,5 +1,7 @@
 -- Question: finding authors who have viewed at least one of their own articles
--- Video: https://www.youtube.com/watch?v=vGX1b7HqrmA
+
+-- English Video: https://www.youtube.com/watch?v=vGX1b7HqrmA
+-- Tamil Video: Pending 
 
 Create table Views (article_id int, author_id int, viewer_id int, view_date date);
 Truncate table Views;
