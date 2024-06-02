@@ -1,5 +1,7 @@
 -- Question: Find each query_name, the quality and poor_query_percentage.
--- Video: https://www.youtube.com/watch?v=r3QITge37PQ
+
+-- English Video: https://www.youtube.com/watch?v=r3QITge37PQ
+-- Tamil Video: Pending 
 
 Create table Queries (query_name varchar(30), result varchar(50), position int, rating int);
 Truncate table Queries;
