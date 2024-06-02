@@ -1,5 +1,7 @@
 -- Question: determine the product sales on the first year of each product started to sell
--- Video: https://www.youtube.com/watch?v=ZKo802J1TCI
+
+-- English Video: https://www.youtube.com/watch?v=ZKo802J1TCI
+-- Tamil Video: Pending 
 
 -- *** Approach 1: subquery/cte table *** 
 with first_sale_year as (
