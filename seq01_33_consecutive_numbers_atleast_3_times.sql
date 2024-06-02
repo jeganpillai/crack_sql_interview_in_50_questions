@@ -1,5 +1,7 @@
 -- Question: Find NUM which has atleast 3 consecutive IDs
--- Video: https://www.youtube.com/watch?v=l3UJ37gki9w
+
+# English Video: https://www.youtube.com/watch?v=l3UJ37gki9w
+# Tamil Video: https://www.youtube.com/watch?v=xpvrWWHwSGA
 
 Create table Logs (id int, num int);
 Truncate table Logs;
