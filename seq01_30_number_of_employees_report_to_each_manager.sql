@@ -1,5 +1,7 @@
 -- Question : Find the number of employees report to each manager
--- Video: https://www.youtube.com/watch?v=giaTRFlsA1M
+
+# English Video: https://www.youtube.com/watch?v=giaTRFlsA1M
+# Tamil Video: https://www.youtube.com/watch?v=EJXnnpt5d48
 
 -- *** Approach 1: Using CTE/Subquery *** 
 -- CTE table 
