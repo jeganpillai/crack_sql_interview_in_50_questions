@@ -1,6 +1,8 @@
 -- Question: Find the Product price at a given date
--- Video: https://www.youtube.com/watch?v=Z8gybEqJV6U
 
+# English Video: https://www.youtube.com/watch?v=Z8gybEqJV6U
+# Tamil Video: https://www.youtube.com/watch?v=0TLVxTfI8cY
+ 
 Create table Products (product_id int, new_price int, change_date date);
 Truncate table Products;
 insert into Products (product_id, new_price, change_date) values 
