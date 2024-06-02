@@ -2,7 +2,8 @@
 -- Then we finetune the sql to find Sales of all products, even if its not sold. If no sales, then show it as Zero sales. 
 -- Then, we check, the product not sold in the year 2023.
 
--- Video: https://www.youtube.com/watch?v=cXV_-EBgwHA
+-- English Video: https://www.youtube.com/watch?v=cXV_-EBgwHA
+-- Tamil Video: Pending 
 
   
 Create table If Not Exists Sales 
