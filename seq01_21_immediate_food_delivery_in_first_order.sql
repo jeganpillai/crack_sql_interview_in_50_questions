@@ -1,5 +1,7 @@
 -- Question: find the percentage of immediate orders in the first orders of all customers.
--- Video: Video: https://www.youtube.com/watch?v=VIruaB0hrAI
+
+-- English Video: https://www.youtube.com/watch?v=VIruaB0hrAI
+-- Tamil Video: Pending 
 
 Create table Delivery 
 (delivery_id int
