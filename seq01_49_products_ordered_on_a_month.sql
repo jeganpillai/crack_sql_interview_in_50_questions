@@ -1,7 +1,7 @@
 -- Question: find the products that have at least 100 units ordered in Feb 2024 and their amount
 
--- English Video: 
--- Tamil Video:
+-- English Video: https://www.youtube.com/watch?v=1BdYaCcjMSw
+-- Tamil Video: https://www.youtube.com/watch?v=e5uwTqMPWG4
 
 Create table Products (product_id int, product_name varchar(40), product_category varchar(40));
 Truncate table Products;
