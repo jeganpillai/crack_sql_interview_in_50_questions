@@ -1,5 +1,7 @@
 -- Question: Find managers with at least five direct reports.
--- Video: https://www.youtube.com/watch?v=877fTBPT1gM
+
+-- English Video: https://www.youtube.com/watch?v=877fTBPT1gM
+-- Tamil Video: Pending 
 
 -- Table with emp_id as unique identifier 
 Create table If Not Exists Employee 
