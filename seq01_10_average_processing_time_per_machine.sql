@@ -1,5 +1,7 @@
 -- Question: Find the average time each machine takes to complete a process.
--- Video: https://www.youtube.com/watch?v=yW3-pxfnOgA
+
+-- English Video: https://www.youtube.com/watch?v=yW3-pxfnOgA
+-- Tamil Video: Pending 
 
 Create table If Not Exists Activity 
 (machine_id int, process_id int, activity_type ENUM('start', 'end'), timestamp float);
