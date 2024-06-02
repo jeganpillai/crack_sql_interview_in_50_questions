@@ -1,5 +1,7 @@
 --Question: find the number of unique subjects taught by each teacher
--- Video: https://www.youtube.com/watch?v=74HVdNrv5kY
+
+-- English Video: https://www.youtube.com/watch?v=74HVdNrv5kY
+-- Tamil Video: Pending 
 
 Create table Teacher (teacher_id int, subject_id int, dept_id int);
 Truncate table Teacher;
