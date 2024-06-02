@@ -1,5 +1,7 @@
 -- Question: Find the daily active user count for a period of 31 days ending 2024-01-31 inclusively
--- Video: https://www.youtube.com/watch?v=aAgoeCxyXW0
+
+-- English Video: https://www.youtube.com/watch?v=aAgoeCxyXW0
+-- Tamil Video: Pending 
 
 Create table Activity (
   user_id int
