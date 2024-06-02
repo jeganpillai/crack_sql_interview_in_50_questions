@@ -1,5 +1,7 @@
 -- Question: Find the name, population and area of the big countries
--- Video: https://www.youtube.com/watch?v=UNZ-GeDFmgU
+
+-- English Video: https://www.youtube.com/watch?v=UNZ-GeDFmgU
+-- Tamil Video: Pending 
 
 Create table World 
 (name varchar(255), continent varchar(255), area int, population int, gdp bigint);
