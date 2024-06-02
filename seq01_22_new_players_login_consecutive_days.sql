@@ -1,5 +1,7 @@
 -- Question: Find the new players who logged in two consecutive days.
--- Video: https://www.youtube.com/watch?v=qyh5xqbP6lM
+
+-- English Video: https://www.youtube.com/watch?v=qyh5xqbP6lM
+-- Tamil Video: Pending 
 
 Create table Activity (player_id int, device_id int, event_date date, games_played int);
 Truncate table Activity;
