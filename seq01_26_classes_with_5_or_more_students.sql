@@ -1,5 +1,7 @@
 -- Question: Find all the classes that have at least five students.
--- Video: https://www.youtube.com/watch?v=w5Hyu1bBXLI
+
+-- English Video: https://www.youtube.com/watch?v=w5Hyu1bBXLI
+-- Tamil Video: Pending 
 
 Create table If Not Exists Courses (student varchar(255), class varchar(255));
 Truncate table Courses;
