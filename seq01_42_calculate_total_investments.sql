@@ -1,7 +1,7 @@
 -- Question: Calculate Total Investments value for the year 2024
 
--- English Video: 
--- Tamil Video: 
+-- English Video: https://www.youtube.com/watch?v=yj1DE00UfF8
+-- Tamil Video: https://www.youtube.com/watch?v=pn24rc07Lww
 
 Create Table Insurance (pid int, tiv_2023 float, tiv_2024 float, lat float, lon float);
 Truncate table Insurance;
