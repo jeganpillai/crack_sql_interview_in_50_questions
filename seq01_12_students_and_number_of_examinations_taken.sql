@@ -1,5 +1,7 @@
 -- Question: find the number of times each student attended each exam.
--- Video: https://www.youtube.com/watch?v=2scFAY9UXXU
+
+-- English Video: https://www.youtube.com/watch?v=2scFAY9UXXU
+-- Tamil Video: Pending 
 
 Create table If Not Exists Students (student_id int, student_name varchar(20));
 Truncate table Students;
