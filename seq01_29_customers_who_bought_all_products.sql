@@ -1,5 +1,7 @@
 -- Question: Find the customers who bought all the products.
--- Video: https://www.youtube.com/watch?v=pxjgY6idLyI
+
+-- English Video: https://www.youtube.com/watch?v=pxjgY6idLyI
+-- Tamil Video: https://www.youtube.com/watch?v=giaTRFlsA1M 
 
 Create table Customer (customer_id int, product_key int);
 Truncate table Customer;
