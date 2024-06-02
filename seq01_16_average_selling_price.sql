@@ -1,5 +1,7 @@
 -- Question: Find the average selling price for each product
--- Video: https://www.youtube.com/watch?v=7PQ4uCKzvhE
+
+-- English Video: https://www.youtube.com/watch?v=7PQ4uCKzvhE
+-- Tamil Video: Pending 
 
 Create table Prices (product_id int, start_date date, end_date date, price int);
 Truncate table Prices;
