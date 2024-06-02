@@ -1,5 +1,7 @@
 -- Question: Find the not boring movie
--- Video: https://www.youtube.com/watch?v=aL07wtTG_2k
+
+-- English Video: https://www.youtube.com/watch?v=aL07wtTG_2k
+-- Tamil Video: Pending 
 
 Create table If Not Exists Cinema 
 (movie_id int, movie_name varchar(255), description varchar(255), rating float(2, 1));
