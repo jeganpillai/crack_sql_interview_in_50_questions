@@ -1,5 +1,8 @@
 -- Question: Report the Percentage of Users Attended a Contest, rounded to 2 digits.
--- Video: https://www.youtube.com/watch?v=9VsWEx54qaE
+
+-- English Video: https://www.youtube.com/watch?v=9VsWEx54qaE
+-- Tamil Video: Pending 
+
 Create table Users (user_id int, user_name varchar(20));
 Truncate table Users;
 insert into Users (user_id, user_name) values 
