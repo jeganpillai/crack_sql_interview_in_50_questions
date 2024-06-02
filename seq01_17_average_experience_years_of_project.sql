@@ -1,5 +1,7 @@
 -- Question: calculates the average experience years for each project
--- Video: https://www.youtube.com/watch?v=QtjyIsYNgW8
+
+-- English Video: https://www.youtube.com/watch?v=QtjyIsYNgW8
+-- Tamil Video: Pending 
 
 Create table Project (project_id int, employee_id int);
 Truncate table Project;
