@@ -1,5 +1,7 @@
 -- Question: Find the biggest single occuring number
--- Video: https://www.youtube.com/watch?v=1dS8m88EuMU
+
+-- English Video: https://www.youtube.com/watch?v=1dS8m88EuMU
+-- Tamil Video: Pending 
 
 Create table MyNumbers (num int);
 Truncate table MyNumbers;
