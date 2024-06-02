@@ -1,5 +1,7 @@
 -- Question: Find if the three line segments can form a triangle
--- Video: https://www.youtube.com/watch?v=ayWjeTC1x2o
+
+# English Video: https://www.youtube.com/watch?v=ayWjeTC1x2o
+# Tamil Video: https://www.youtube.com/watch?v=W71ToMMCnDA
 
 Create table Triangle (x int, y int, z int);
 Truncate table Triangle;
