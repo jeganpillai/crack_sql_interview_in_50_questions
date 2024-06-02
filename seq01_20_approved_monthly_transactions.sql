@@ -1,5 +1,7 @@
 -- Question: find total transactions and approved transactions
--- Video: https://www.youtube.com/watch?v=_UTdfH0Fcn0
+
+-- English Video: https://www.youtube.com/watch?v=_UTdfH0Fcn0
+-- Tamil Video: Pending 
 
 Create table Transactions 
 (id int
